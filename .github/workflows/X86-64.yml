@@ -6,7 +6,7 @@ on:
     - cron: 0 15 * * *
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
+  REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: openwrt-24.10
   CONFIG_FILE: configs/x86-64.config
   FEEDS_FILE: feeds/x86-64.txt
